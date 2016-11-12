@@ -1,7 +1,7 @@
 
 
 body{
-	background: #128aa7 url(../img/body.png);
+	background: #0c739f url(../img/body.png);
 	background-repeat: repeat-x;
 }
 
@@ -53,11 +53,18 @@ h2{
 	height: 40px;
 }
 
-
+/*
 .top_menu{
 	position: absolute;
 	top: 120px;
 	right: 15px;
+}
+*/
+.top_menu{
+	float: right;
+	margin-right: 50px;
+	margin-top: 90px;
+	width: 454px;
 }
 
 .top_menu ul{
@@ -67,16 +74,24 @@ h2{
 
 .top_menu li{
 	display: inline-block;
+	margin-right: 12px;
 }
 
 .top_menu li a{
+	display: block;
+	height: 70px;
+	width: 55px;
 	font-family: Tahoma;
 	font-size: 10px;
 	color: #128aa7;
-
-	
-
 }
+.top_menu li a img {
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+}
+
 /*
 .active1{
 	position: relative;
@@ -151,6 +166,16 @@ h2{
 	color: white;
 }
 
+
+
+.triangle{
+	position: relative;
+	top: 0px;
+	left: 5px;
+	font-size: 10px;
+	color: white;
+}
+
 .submenu {
 	display: none;
 	position: absolute;
@@ -169,6 +194,7 @@ h2{
 
 .submenu li a:hover{
 	color: lightblue;
+	cursor: pointer;
 }
 
 .submenu li{
